@@ -1,2 +1,2 @@
-# cross-course-project-Sirvau
-cross-course-project-Sirvau created by GitHub Classroom
+Repo for my "Rainydays" project
+
