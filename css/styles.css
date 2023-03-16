@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif, verdana;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+}
+
+@font-face {
+    font-family: 'Bebas Neue', 'Montserrat', 'sans-serif'; 
+    src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,500;1,900&display=swap');
+}
+
+h1, nav li {
+    font-family: 'Bebas Neue', 'Montserrat', sans-serif;
+}
+
+nav li {
+    display: inline-block
+}
+
+nav a {
+    color: #CDD0D4;
+    font-size: 35px;
+    text-decoration: overline;
+    text-decoration-thickness: 0px;
+    text-decoration-style:solid;
+    padding: 25px;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+nav ul {
+    padding: 25px;
+}
+
+.active {
+    text-decoration: none;
+    color: #CDD0D4;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; 'Open-sans'; 
+    color: #CDD0D4;
+    font-size: 30px;
+    padding: 100px;
+    background-color: #05131E;  
+}
+
+a {
+    color:#CDD0D4;
+    text-decoration:underline;
+}
+
+
+.cta-button {
+    background-color: #A7462E;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', 'Montserrat', sans-serif;
+}
+
+.checkout {
+    background-color: #616834;
+}
+
+#big {
+    font-size: 70px;
+}
+
+#medium {
+    font-size: 35px;
+}
+
+#small {
+    font-size: 25px;
+}
+.products {
+    background-color:#2E2F31;
+    display:inline-flex;
+}
+
+footer {
+    padding-top: 500px;
+}

@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../css/styles.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta
       name="description"
@@ -11,22 +16,47 @@
   </head>
   <body>
     <header>
+      <img src="../images/logo_rainydays-ai.png" />
       <a href="index.html">Rainydays</a>
       <nav>
         <ul>
           <li><a href="about.html">About</a></li>
-          <li><a href="sortiment.html">Sortiment</a></li>
+          <li><a href="sortiment.html" class="active">Sortiment</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <div> Copy code from the index site on the products.
-          <a href="product.html">View</a></div>
-        <div><a href="product.html">View</a></div>
-        <div><a href="product.html">View</a></div>
-        <div><a href="product.html">View</a></div>
+      <section class="products">
+        <div>
+          <img
+            src="../images/ice_shell_jacket.png"
+            alt="Clear blue shell jacket with dark blue fields on shoulders, hoodie and arms."
+          />
+          <a href="product.html" id="small" class="cta-button">View</a>
+        </div>
+        <div>
+          <img
+            src="../images/ocean_rainjacket.png"
+            alt="Dark blue rainjacket with clear blue contrast zipper."
+          />
+          <a href="product.html" id="small" class="cta-button">View</a>
+        </div>
+        <div>
+          <img
+            src="../images/forest_goretex_jacket.png"
+            alt="Green goretex rainjacket with darker fields of green on shoulders, hoodie and arms."
+          />
+          <a href="product.html" id="small" class="cta-button">View</a>
+        </div>
+        <div>
+          <img
+            src="../images/campfire_2layer_jacket.png"
+            alt="Orange rainjacket with darker fields of orange on arms, chest and hoodie."
+          />
+          <a href="product.html" id="small" class="cta-button">View</a>
+        </div>
+      </section>
     </main>
     <footer>Copyright &copy;</footer>
   </body>
