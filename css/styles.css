@@ -1,84 +1,85 @@
 @font-face {
-    font-family: 'Montserrat', sans-serif, verdana;
-    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+  font-family: "Montserrat", sans-serif, verdana;
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 }
 
 @font-face {
-    font-family: 'Bebas Neue', 'Montserrat', 'sans-serif'; 
-    src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,500;1,900&display=swap');
+  font-family: "Bebas Neue", "Montserrat", "sans-serif";
+  src: url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,500;1,900&display=swap");
 }
 
-h1, nav li {
-    font-family: 'Bebas Neue', 'Montserrat', sans-serif;
-}
-
+h1,
 nav li {
-    display: inline-block
+  font-family: "Bebas Neue", "Montserrat", sans-serif;
+  display: inline-block;
 }
 
 nav a {
-    color: #CDD0D4;
-    font-size: 35px;
-    text-decoration: overline;
-    text-decoration-thickness: 0px;
-    text-decoration-style:solid;
-    padding: 25px;
+  color: #cdd0d4;
+  font-size: 35px;
+  text-decoration: overline;
+  text-decoration-style: solid;
+  padding: 25px;
 }
 
 nav a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 nav ul {
-    padding: 25px;
+  padding: 25px;
 }
 
 .active {
-    text-decoration: none;
-    color: #CDD0D4;
+  text-decoration: none;
+  color: #cdd0d4;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif; 'Open-sans'; 
-    color: #CDD0D4;
-    font-size: 30px;
-    padding: 100px;
-    background-color: #05131E;  
+  background-color: rgba(5, 19, 30, 1);
+  color: rgba(205, 208, 212, 1);
+  font-family: "Montserrat";
+  font-size: 30px;
 }
 
-a {
-    color:#CDD0D4;
-    text-decoration:underline;
+.product {
+  background-color: rgba(46, 47, 49, 0.25);
+  display: inline-block;
+  padding: 30px;
 }
 
+.button {
+  background-color: #a7462e;
+  color: #cdd0d4;
+  padding: 20px;
+  text-decoration: none;
+  font-family: "Bebas Neue", "Montserrat", "sans-serif";
 
-.cta-button {
-    background-color: #A7462E;
-    padding: 20px;
-    text-decoration: none;
-    font-family: 'Bebas Neue', 'Montserrat', sans-serif;
+  border-radius: 5%;
 }
 
-.checkout {
-    background-color: #616834;
+.big {
+  background-color: #616834;
+  size: 70px;
 }
 
-#big {
-    font-size: 70px;
+.medium {
+  font-size: 35px;
 }
 
-#medium {
-    font-size: 35px;
+.small {
+  font-size: 25px;
+  padding: 5px;
 }
 
-#small {
-    font-size: 25px;
+#checkout {
+  background-color: #616834;
 }
-.products {
-    background-color:#2E2F31;
-    display:inline-flex;
+
+.four {
+  padding-top: 50px;
 }
 
 footer {
-    padding-top: 500px;
+  padding-top: 500px;
 }
