@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://kit.fontawesome.com/81a562339c.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
       rel="stylesheet"
@@ -16,6 +20,15 @@
   </head>
   <body>
     <header>
+      <p class="form">
+        <label for="search_bar"></label>
+        <input type="text" name="search_bar" />
+      </p>
+      <p class="icons">
+        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+        <i class="fa-sharp fa-solid fa-house"></i>
+      </p>
       <img src="../images/logo_rainydays-ai.png" />
       <a href="index.html">Rainydays</a>
       <nav>
@@ -27,13 +40,33 @@
       </nav>
     </header>
     <main>
+      <section class="images contact"></section>
       <h1>Contact us</h1>
       <section>
         <p>If you have questions or feedback, let us know!</p>
-        <p>form here</p>
-        <a href="send_succsess.html" class="button medium">Send</a>
+        <fieldset>
+          <legend>Contact form</legend>
+          </p>
+          <p class="form">
+            <label for="name_surname">Name, surname</label>
+            <input type="text" name="name_surname" />
+          </p>
+          <p class="form">
+            <label for="email">E-mail</label>
+            <input type="text" name="email" />
+          </p>
+          <p class="form">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="8" cols="30"></textarea>
+          </p>
+        </fieldset>
+        <a href="send_succsess.html" class="button medium">Send </a>
       </section>
     </main>
-    <footer>Copyright &copy;</footer>
+    <footer>
+      Copyright &copy;
+      <i class="fa-sharp fa-solid fa-envelope"></i>
+      <i class="fa-sharp fa-solid fa-phone"></i>
+    </footer>
   </body>
 </html>

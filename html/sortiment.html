@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://kit.fontawesome.com/81a562339c.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
       rel="stylesheet"
@@ -16,8 +20,19 @@
   </head>
   <body>
     <header>
-      <img src="../images/logo_rainydays-ai.png" />
-      <a href="index.html">Rainydays</a>
+      <p class="form">
+        <label for="search_bar"></label>
+        <input type="text" name="search_bar" />
+      </p>
+      <p class="icons">
+        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+        <i class="fa-sharp fa-solid fa-house"></i>
+      </p>
+      <p class="logo">
+        <img src="../images/logo_rainydays-ai.png" />
+        <a href="index.html">Rainydays</a>
+      </p>
       <nav>
         <ul>
           <li><a href="about.html">About</a></li>
@@ -28,13 +43,14 @@
     </header>
     <main>
       <section>
+        <img src="../images/sortiment_main_picture.jpg" alt="..." />
         <div class="product one">
           <img
             src="../images/ice_shell_jacket.png"
             alt="Clear blue shell jacket with dark blue fields on shoulders, hoodie and arms."
           />
           <h3>Ice Shell jacket</h3>
-          <p>2699,-</p>
+          <p class="prices">2699,-</p>
           <a href="product.html" class="button small">View</a>
         </div>
         <div class="product two">
@@ -43,7 +59,7 @@
             alt="Dark blue rainjacket with clear blue contrast zipper."
           />
           <h3>Ocean rainjacket</h3>
-          <p>3299,-</p>
+          <p class="prices">3299,-</p>
           <a href="product.html" class="button small">View</a>
         </div>
         <div class="product three">
@@ -52,7 +68,7 @@
             alt="Green goretex rainjacket with darker fields of green on shoulders, hoodie and arms."
           />
           <h3>Forest-Gore-Tex Jacket</h3>
-          <p>2899,-</p>
+          <p class="prices">2899,-</p>
           <a href="product.html" class="button small">View</a>
         </div>
         <div class="product four">
@@ -61,11 +77,15 @@
             alt="Orange rainjacket with darker fields of orange on arms, chest and hoodie."
           />
           <h3>Campfire 2-layer Jacket</h3>
-          <p>1899,-</p>
+          <p class="prices">1899,-</p>
           <a href="product.html" class="button small">View</a>
         </div>
       </section>
     </main>
-    <footer>Copyright &copy;</footer>
+    <footer>
+      Copyright &copy;
+      <i class="fa-sharp fa-solid fa-envelope"></i>
+      <i class="fa-sharp fa-solid fa-phone"></i>
+    </footer>
   </body>
 </html>

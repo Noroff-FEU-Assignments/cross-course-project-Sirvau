@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://kit.fontawesome.com/81a562339c.js" crossorigin="anonymous"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
       rel="stylesheet"
@@ -16,6 +17,15 @@
   </head>
   <body>
     <header>
+      <p class="form">
+        <label for="search_bar"></label>
+        <input type="text" name="search_bar" />
+      </p>
+      <p class="icons">
+        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+        <i class="fa-sharp fa-solid fa-house"></i>
+      </p>
       <img src="../images/logo_rainydays-ai.png" />
       <a href="index.html">Rainydays</a>
       <nav>
@@ -34,14 +44,26 @@
         <p>icons</p>
       <section>
         <img src="../images/ice_shell_jacket.png" alt="Clear blue shell jacket with dark blue fields on shoulders, hoodie and arms."/>
-        <p>Search icon</p>
+        <i class="fa-solid fa-magnifying-glass-plus"></i>
       </section>
       <section>
-        <p>2699,-</p>
-        <p>Size buttons</p>
+        <p class="prices">2699,-</p>
+        <input type="radio" name="size" value="xs" id="xs" />
+        <label for="xs">XS</label>
+        <input type="radio" name="size" value="s" id="s" />
+        <label for="s">S</label>
+        <input type="radio" name="size" value="m" id="m" />
+        <label for="m">M</label>
+        <input type="radio" name="size" value="l" id="l" />
+        <label for="l">L</label>
+        <input type="radio" name="size" value="xl" id="xl" />
+        <label for="xl">XL</label>
         <a href="shoppingbag.html" class="button medium">Add to bag</a>
       </section>
     </main>
-    <footer>Copyright &copy;</footer>
+    <footer>Copyright &copy;
+      <i class="fa-sharp fa-solid fa-envelope"></i>
+      <i class="fa-sharp fa-solid fa-phone"></i>
+    </footer>
   </body>
 </html>

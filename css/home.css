@@ -1,0 +1,22 @@
+/* Home page*/
+
+.image_top_left {
+  background-image: url("../images/index_man_on_mountain.jpg");
+  background-repeat: no-repeat;
+  min-height: 58vh;
+}
+
+.image_top_right {
+  background-image: url("../images/index_ice_climbing.jpg");
+  background-repeat: no-repeat;
+  background-size: 30rem;
+  min-height: 70vh;
+  min-width: 100vw;
+}
+
+.image_middle {
+  background-image: url("../images/kal-visuals-Td9K-kMM4SQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 30rem;
+  min-height: 60vh;
+}

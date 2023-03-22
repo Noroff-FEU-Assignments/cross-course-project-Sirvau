@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://kit.fontawesome.com/81a562339c.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
       rel="stylesheet"
@@ -10,6 +14,7 @@
       rel="stylesheet"
     />
     <link href="../css/styles.css" rel="stylesheet" />
+    <link href="../css/home.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta
       name="description"
@@ -18,9 +23,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Rainydays</title>
   </head>
-
   <body>
     <header>
+      <p class="form">
+        <label for="search_bar"></label>
+        <input type="text" name="search_bar" />
+      </p>
+      <p class="icons">
+        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+        <i class="fa-sharp fa-solid fa-house"></i>
+      </p>
       <img src="../images/logo_rainydays-ai.png" />
       <nav>
         <ul>
@@ -30,26 +43,17 @@
         </ul>
       </nav>
     </header>
-
     <main>
+      <section class="image_top_left"></section>
+      <section class="image_top_right"></section>
       <section>
-        <img
-          src="../images/people-2590300_1920.jpg"
-          alt="Man with green jacket and orange hat, looking on the scenery from a mountain top."
-        />
-      </section>
-      <section>
-        <img
-          src="../images/rocks-2564161_1920.jpg"
-          alt="Two people climbing through a tunnel of snow and ice with a mountain in the background."
-        />
         <p>Durable outdoor</p>
         <h1>
           <a href="sortiment.html" class="button big">Jackets</a>
         </h1>
         <p>that supports your adventures</p>
       </section>
-      <section>
+      <section class="image_middle">
         <p>Be comfortable when</p>
         <h2>Pushing the Comfort Zone</h2>
         <p>Meet the conditions in one of our rainjackets for men and women.</p>
@@ -64,7 +68,7 @@
             alt="Clear blue shell jacket with dark blue fields on shoulders, hoodie and arms."
           />
           <h3>Ice Shell jacket</h3>
-          <p>2699,-</p>
+          <p class="prices">2699,-</p>
           <a href="product.html" class="button small">View</a>
         </div>
         <div class="product two">
@@ -73,7 +77,7 @@
             alt="Dark blue rainjacket with clear blue contrast zipper."
           />
           <h3>Ocean rainjacket</h3>
-          <p>3299,-</p>
+          <p class="prices">3299,-</p>
           <a href="product.html" class="button small">View</a>
         </div>
         <div class="product three">
@@ -82,7 +86,7 @@
             alt="Green goretex rainjacket with darker fields of green on shoulders, hoodie and arms."
           />
           <h3>Forest-Gore-Tex Jacket</h3>
-          <p>2899,-</p>
+          <p class="prices">2899,-</p>
           <a href="product.html" class="button small">View</a>
         </div>
         <div class="product four">
@@ -91,11 +95,15 @@
             alt="Orange rainjacket with darker fields of orange on arms, chest and hoodie."
           />
           <h3>Campfire 2-layer Jacket</h3>
-          <p>1899,-</p>
+          <p class="prices">1899,-</p>
           <a href="product.html" class="button small">View</a>
         </div>
       </section>
     </main>
-    <footer>Copyright &copy;</footer>
+    <footer>
+      Copyright &copy;
+      <i class="fa-sharp fa-solid fa-envelope"></i>
+      <i class="fa-sharp fa-solid fa-phone"></i>
+    </footer>
   </body>
 </html>

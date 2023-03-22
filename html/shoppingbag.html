@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://kit.fontawesome.com/81a562339c.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta name="description" content="Your shoppingbag" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +17,15 @@
   </head>
   <body>
     <header>
+      <p class="form">
+        <label for="search_bar"></label>
+        <input type="text" name="search_bar" />
+      </p>
+      <p class="icons">
+        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+        <i class="fa-sharp fa-solid fa-house"></i>
+      </p>
       <img src="../images/logo_rainydays-ai.png" />
       <a href="index.html">Rainydays</a>
       <nav>
@@ -24,28 +37,112 @@
       </nav>
     </header>
     <main>
-        <section>
-            <h1>Your shoppingbag</h1>
-            <p> 2 items</p>
-        </section>
-        <section>
-            <div>
-                <p>Products in shoppingbag</p>
-                <p> x-icon</p>
-                <p>Total amount: 5598,-</p>
-            </div>
-        <section>
-            <h2>Your information</h2>
-            <p>Payment information form</p>
-        </section>
-        <section>
-            <h3>Payment Methods</h3>
-            <p>Icons</p>
-            <p>Form</p>
-            <a href="checkout_success.html" id="checkout" class="button medium">Checkout</a>
-        </section>
-
+      <section>
+        <h1>Your shoppingbag</h1>
+        <p>2 items</p>
+        <div>
+          <img
+            src="../images/ice_shell_jacket.png"
+            alt="Clear blue shell jacket with dark blue fields on shoulders, hoodie and arms."
+          />
+          <p>Ice Shell Jacket</p>
+          <p>
+            <label for="size">size:</label>
+            <select name="size" id="size">
+              <option value="xs">XS</option>
+              <option value="s">S</option>
+              <option value="m">M</option>
+              <option value="l">L</option>
+              <option value="xl">XL</option>
+            </select>
+          </p>
+          <p>2699,-</p>
+        </div>
+        <div>
+          <img
+            src="../images/forest_goretex_jacket – Kopi.png"
+            alt="Green goretex rainjacket with darker fields of green on shoulders, hoodie and arms."
+          />
+          <p>Forest Gore-Tex Jacket</p>
+          <p>
+            <label for="size">size:</label>
+            <select name="size" id="size">
+              <option value="xs">XS</option>
+              <option value="s">S</option>
+              <option value="m">M</option>
+              <option value="l">L</option>
+              <option value="xl">XL</option>
+            </select>
+          </p>
+          <p>2899,-</p>
+        </div>
+        <div>
+          <p>Total amount: 5598,-</p>
+        </div>
+      </section>
+      <section>
+        <h2>Your information</h2>
+        <fieldset>
+          <p class="form">
+            <label for="name_surname">Name, surname</label>
+            <input type="text" name="name_surname" />
+        </p>
+        <p class="form">
+            <label for="email">E-mail</label>
+            <input type="text" name="email" />
+        </p>
+        <p class="form">
+            <label for="postal_code">Postal code</label>
+            <input type="text" name="postal_code" />
+        </p>
+        <p class="form">
+            <label for="delivery_adress">Delivery adress</label>
+            <input type="text" name="delivery_adress" />
+        </p>
+        <p class="form">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="8" cols="30"></textarea>
+        </p>
+        </fieldset>
+      </section>
+      <section>
+        <h3>Payment Methods</h3>
+        <fieldset>
+          <p class="form">
+            <input type="radio" name="payment" value="klarna" id="klarna" />
+            <label for="klarna">Klarna</label>
+          <p class="form">
+          </p>
+            <input type="radio" name="payment" value="visa" id="visa" />
+            <label for="visa">Visa</label>
+          </p>
+          <p class="form">
+            <input type="radio" name="payment" value="mastercard" id="mastercard" />
+            <label for="mastercard">Mastercard</label>
+          </p>
+          <p class="form">
+            <input type="radio" name="payment" value="paypal" id="paypal" />
+            <label for="paypal">Paypal</label>
+          </p>
+          <p class="form">
+            <label for="card_number">Card number</label>
+            <input type="text" name="card_number" />
+            <label for="valide_date">Valid date</label>
+            <input type="text" name="valid_date" />
+            <label for="cvc_code">CVC-code</label>
+            <input type="text" name="cvc_code" />
+          </p>
+          <p>
+            <a href="checkout_success.html" id="checkout" class="button medium"
+          >Checkout</a>
+          </p>
+        </fieldset>
+      </section>
     </main>
-    <footer>Copyright &copy;</footer>
+    <footer>
+      Copyright &copy;
+      <i class="fa-sharp fa-solid fa-envelope"></i>
+      <i class="fa-sharp fa-solid fa-phone"></i>
+    </footer>
   </body>
 </html>
